@@ -1,0 +1,1325 @@
+	at com.yerbaguy.practicewords.service.WordServiceImpl.findWord(WordServiceImpl.java:95) ~[classes/:na]
+	at com.yerbaguy.practicewords.controller.WordController.words(WordController.java:78) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:111) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:806) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:729) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650) [servlet-api.jar:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731) [servlet-api.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) [catalina.jar:7.0.77]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat7-websocket.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110) [catalina.jar:7.0.77]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169) [catalina.jar:7.0.77]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103) [catalina.jar:7.0.77]
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116) [catalina.jar:7.0.77]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445) [catalina.jar:7.0.77]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115) [tomcat-coyote.jar:7.0.77]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637) [tomcat-coyote.jar:7.0.77]
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316) [tomcat-coyote.jar:7.0.77]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-coyote.jar:7.0.77]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:80) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:91) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2066) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1863) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2554) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2540) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.list(Loader.java:2365) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1300) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:573) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.internal.QueryImpl.getSingleResult(QueryImpl.java:495) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	... 45 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'kind' in 'where clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_121]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.Util.getInstance(Util.java:383) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:980) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3847) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3783) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2447) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2594) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1901) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2002) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96) ~[commons-dbcp-1.4.jar:1.4]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:82) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	... 61 common frames omitted
+kwi 13, 2017 1:10:03 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [dispatcher] in context with path [/practiceWeb] threw exception [Request processing failed; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'kind' in 'where clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.Util.getInstance(Util.java:383)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:980)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3847)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3783)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2447)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2594)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1901)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2002)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:82)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2066)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1863)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1300)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103)
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:573)
+	at org.hibernate.jpa.internal.QueryImpl.getSingleResult(QueryImpl.java:495)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy36.getSingleResult(Unknown Source)
+	at com.yerbaguy.practicewords.service.WordServiceImpl.findWord(WordServiceImpl.java:95)
+	at com.yerbaguy.practicewords.controller.WordController.words(WordController.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:111)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:806)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:729)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+20:03:34.807 [http-bio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/]
+20:03:34.808 [http-bio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /
+20:03:34.808 [http-bio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.yerbaguy.practicewords.controller.WordController.index(org.springframework.ui.Model)]
+20:03:34.808 [http-bio-8080-exec-6] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'wordController'
+20:03:34.808 [http-bio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/] is: -1
+20:03:34.809 [http-bio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.JstlView: name 'index'; URL [/WEB-INF/views/index.jsp]] in DispatcherServlet with name 'dispatcher'
+20:03:34.809 [http-bio-8080-exec-6] DEBUG o.s.web.servlet.view.JstlView - Forwarding to resource [/WEB-INF/views/index.jsp] in InternalResourceView 'index'
+20:03:34.810 [http-bio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+20:03:38.613 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/words]
+20:03:38.614 [http-bio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /words
+20:03:38.614 [http-bio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.yerbaguy.practicewords.controller.WordController.words(org.springframework.ui.Model)]
+20:03:38.614 [http-bio-8080-exec-7] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'wordController'
+20:03:38.615 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/words] is: -1
+20:03:38.616 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.JstlView: name 'words'; URL [/WEB-INF/views/words.jsp]] in DispatcherServlet with name 'dispatcher'
+20:03:38.616 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.view.JstlView - Added model object 'wordForm' of type [com.yerbaguy.practicewords.model.Word] to request in view with name 'words'
+20:03:38.616 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.view.JstlView - Added model object 'org.springframework.validation.BindingResult.wordForm' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'words'
+20:03:38.616 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.view.JstlView - Forwarding to resource [/WEB-INF/views/words.jsp] in InternalResourceView 'words'
+20:03:38.619 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+20:03:38.640 [http-bio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/css/common.css]
+20:03:38.640 [http-bio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/js/bootstrap.min.js]
+20:03:38.640 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/css/common.css
+20:03:38.640 [http-bio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/js/bootstrap.min.js
+20:03:38.641 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/css/common.css]
+20:03:38.641 [http-bio-8080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/css/common.css] are [/resources/**]
+20:03:38.641 [http-bio-8080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/css/common.css] are {}
+20:03:38.641 [http-bio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/js/bootstrap.min.js]
+20:03:38.641 [http-bio-8080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/css/common.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+20:03:38.642 [http-bio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/css/common.css] is: -1
+20:03:38.642 [http-bio-8080-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/js/bootstrap.min.js] are [/resources/**]
+20:03:38.642 [http-bio-8080-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/js/bootstrap.min.js] are {}
+20:03:38.642 [http-bio-8080-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/js/bootstrap.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+20:03:38.642 [http-bio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/js/bootstrap.min.js] is: -1
+20:03:38.642 [http-bio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+20:03:38.642 [http-bio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+20:03:38.642 [http-bio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+20:03:38.642 [http-bio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+20:03:38.643 [http-bio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/css/bootstrap.min.css]
+20:03:38.643 [http-bio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/css/bootstrap.min.css
+20:03:38.644 [http-bio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/css/bootstrap.min.css]
+20:03:38.644 [http-bio-8080-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/css/bootstrap.min.css] are [/resources/**]
+20:03:38.644 [http-bio-8080-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/css/bootstrap.min.css] are {}
+20:03:38.644 [http-bio-8080-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/css/bootstrap.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+20:03:38.644 [http-bio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/css/bootstrap.min.css] is: -1
+20:03:38.645 [http-bio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+20:03:38.645 [http-bio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:21.012 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/]
+21:32:21.013 [http-bio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /
+21:32:21.013 [http-bio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.yerbaguy.practicewords.controller.WordController.index(org.springframework.ui.Model)]
+21:32:21.013 [http-bio-8080-exec-3] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'wordController'
+21:32:21.013 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/] is: -1
+21:32:21.013 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.JstlView: name 'index'; URL [/WEB-INF/views/index.jsp]] in DispatcherServlet with name 'dispatcher'
+21:32:21.014 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.view.JstlView - Forwarding to resource [/WEB-INF/views/index.jsp] in InternalResourceView 'index'
+21:32:21.193 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:25.940 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/words]
+21:32:25.940 [http-bio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /words
+21:32:25.940 [http-bio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.yerbaguy.practicewords.controller.WordController.words(org.springframework.ui.Model)]
+21:32:25.940 [http-bio-8080-exec-3] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'wordController'
+21:32:25.940 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/words] is: -1
+21:32:25.941 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.JstlView: name 'words'; URL [/WEB-INF/views/words.jsp]] in DispatcherServlet with name 'dispatcher'
+21:32:25.941 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.view.JstlView - Added model object 'wordForm' of type [com.yerbaguy.practicewords.model.Word] to request in view with name 'words'
+21:32:25.941 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.view.JstlView - Added model object 'org.springframework.validation.BindingResult.wordForm' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'words'
+21:32:25.941 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.view.JstlView - Forwarding to resource [/WEB-INF/views/words.jsp] in InternalResourceView 'words'
+21:32:25.943 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:25.963 [http-bio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/css/common.css]
+21:32:25.963 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/css/common.css
+21:32:25.964 [http-bio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/js/bootstrap.min.js]
+21:32:25.964 [http-bio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/js/bootstrap.min.js
+21:32:25.964 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/css/common.css]
+21:32:25.964 [http-bio-8080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/css/common.css] are [/resources/**]
+21:32:25.964 [http-bio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/js/bootstrap.min.js]
+21:32:25.964 [http-bio-8080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/css/common.css] are {}
+21:32:25.964 [http-bio-8080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/css/common.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+21:32:25.964 [http-bio-8080-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/js/bootstrap.min.js] are [/resources/**]
+21:32:25.964 [http-bio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/css/common.css] is: -1
+21:32:25.964 [http-bio-8080-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/js/bootstrap.min.js] are {}
+21:32:25.964 [http-bio-8080-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/js/bootstrap.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+21:32:25.964 [http-bio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/js/bootstrap.min.js] is: -1
+21:32:25.965 [http-bio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+21:32:25.965 [http-bio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+21:32:25.965 [http-bio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:25.965 [http-bio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:25.971 [http-bio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/css/bootstrap.min.css]
+21:32:25.971 [http-bio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/css/bootstrap.min.css
+21:32:25.972 [http-bio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/css/bootstrap.min.css]
+21:32:25.972 [http-bio-8080-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/css/bootstrap.min.css] are [/resources/**]
+21:32:25.972 [http-bio-8080-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/css/bootstrap.min.css] are {}
+21:32:25.972 [http-bio-8080-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/css/bootstrap.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+21:32:25.972 [http-bio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/css/bootstrap.min.css] is: -1
+21:32:25.972 [http-bio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+21:32:25.973 [http-bio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:27.825 [http-bio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing POST request for [/practiceWeb/words]
+21:32:27.825 [http-bio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /words
+21:32:27.825 [http-bio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.yerbaguy.practicewords.controller.WordController.words(com.yerbaguy.practicewords.model.Word,org.springframework.validation.BindingResult,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)]
+21:32:27.825 [http-bio-8080-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'wordController'
+21:32:27.826 [http-bio-8080-exec-4] DEBUG o.s.web.cors.DefaultCorsProcessor - Skip CORS processing, request is a same-origin one
+Clicked
+21:32:27.827 [http-bio-8080-exec-4] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+21:32:27.828 [http-bio-8080-exec-4] DEBUG org.hibernate.SQL - select count(word0_.wordId) as col_0_0_ from Word word0_
+Hibernate: select count(word0_.wordId) as col_0_0_ from Word word0_
+21:32:27.828 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+21:32:27.829 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+21:32:27.830 [http-bio-8080-exec-4] DEBUG org.hibernate.loader.Loader - Result set row: 0
+21:32:27.830 [http-bio-8080-exec-4] DEBUG org.hibernate.loader.Loader - Result row: 
+21:32:27.830 [http-bio-8080-exec-4] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+21:32:27.831 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+21:32:27.831 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+6
+21:32:27.831 [http-bio-8080-exec-4] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+21:32:27.831 [http-bio-8080-exec-4] DEBUG org.hibernate.SQL - select count(word0_.wordId) as col_0_0_ from Word word0_
+Hibernate: select count(word0_.wordId) as col_0_0_ from Word word0_
+21:32:27.831 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+21:32:27.832 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+21:32:27.832 [http-bio-8080-exec-4] DEBUG org.hibernate.loader.Loader - Result set row: 0
+21:32:27.832 [http-bio-8080-exec-4] DEBUG org.hibernate.loader.Loader - Result row: 
+21:32:27.833 [http-bio-8080-exec-4] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+21:32:27.833 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+21:32:27.833 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+21:32:27.833 [http-bio-8080-exec-4] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+21:32:27.834 [http-bio-8080-exec-4] DEBUG org.hibernate.SQL - Select plWord from Word Where wordId = 2
+Hibernate: Select plWord from Word Where wordId = 2
+21:32:27.834 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+21:32:27.834 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+21:32:27.835 [http-bio-8080-exec-4] DEBUG org.hibernate.loader.Loader - Result set row: 0
+21:32:27.836 [http-bio-8080-exec-4] DEBUG org.hibernate.loader.Loader - Result row: 
+21:32:27.837 [http-bio-8080-exec-4] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+21:32:27.837 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+21:32:27.837 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+ledwo
+21:32:27.838 [http-bio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.JstlView: name 'words'; URL [/WEB-INF/views/words.jsp]] in DispatcherServlet with name 'dispatcher'
+21:32:27.838 [http-bio-8080-exec-4] DEBUG o.s.web.servlet.view.JstlView - Added model object 'wordForm' of type [com.yerbaguy.practicewords.model.Word] to request in view with name 'words'
+21:32:27.838 [http-bio-8080-exec-4] DEBUG o.s.web.servlet.view.JstlView - Added model object 'org.springframework.validation.BindingResult.wordForm' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'words'
+21:32:27.838 [http-bio-8080-exec-4] DEBUG o.s.web.servlet.view.JstlView - Forwarding to resource [/WEB-INF/views/words.jsp] in InternalResourceView 'words'
+21:32:27.843 [http-bio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:27.856 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/css/bootstrap.min.css]
+21:32:27.856 [http-bio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/css/bootstrap.min.css
+21:32:27.857 [http-bio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/css/bootstrap.min.css]
+21:32:27.857 [http-bio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/css/bootstrap.min.css] are [/resources/**]
+21:32:27.857 [http-bio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/css/bootstrap.min.css] are {}
+21:32:27.857 [http-bio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/css/bootstrap.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+21:32:27.857 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/css/bootstrap.min.css] is: -1
+21:32:27.857 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+21:32:27.857 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:27.861 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/css/common.css]
+21:32:27.861 [http-bio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/css/common.css
+21:32:27.861 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/js/bootstrap.min.js]
+21:32:27.861 [http-bio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/js/bootstrap.min.js
+21:32:27.862 [http-bio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/js/bootstrap.min.js]
+21:32:27.862 [http-bio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/css/common.css]
+21:32:27.862 [http-bio-8080-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/js/bootstrap.min.js] are [/resources/**]
+21:32:27.862 [http-bio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/css/common.css] are [/resources/**]
+21:32:27.862 [http-bio-8080-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/js/bootstrap.min.js] are {}
+21:32:27.862 [http-bio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/css/common.css] are {}
+21:32:27.862 [http-bio-8080-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/js/bootstrap.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+21:32:27.862 [http-bio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/css/common.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+21:32:27.862 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/js/bootstrap.min.js] is: -1
+21:32:27.862 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/css/common.css] is: -1
+21:32:27.862 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+21:32:27.862 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+21:32:27.862 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:27.862 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:34.372 [http-bio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing POST request for [/practiceWeb/words]
+21:32:34.373 [http-bio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /words
+21:32:34.373 [http-bio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.yerbaguy.practicewords.controller.WordController.words(com.yerbaguy.practicewords.model.Word,org.springframework.validation.BindingResult,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)]
+21:32:34.373 [http-bio-8080-exec-10] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'wordController'
+21:32:34.373 [http-bio-8080-exec-10] DEBUG o.s.web.cors.DefaultCorsProcessor - Skip CORS processing, request is a same-origin one
+Clicked_1
+kind
+21:32:34.375 [http-bio-8080-exec-10] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+21:32:34.375 [http-bio-8080-exec-10] DEBUG org.hibernate.SQL - select word0_.wordId as col_0_0_ from Word word0_ where word0_.engWord=kind
+Hibernate: select word0_.wordId as col_0_0_ from Word word0_ where word0_.engWord=kind
+21:32:34.375 [http-bio-8080-exec-10] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+21:32:34.376 [http-bio-8080-exec-10] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+21:32:34.378 [http-bio-8080-exec-10] DEBUG o.h.e.jdbc.spi.SqlExceptionHelper - could not extract ResultSet [n/a]
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'kind' in 'where clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_121]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.Util.getInstance(Util.java:383) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:980) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3847) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3783) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2447) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2594) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1901) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2002) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96) ~[commons-dbcp-1.4.jar:1.4]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:82) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2066) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1863) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2554) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2540) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.list(Loader.java:2365) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1300) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:573) [hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.internal.QueryImpl.getSingleResult(QueryImpl.java:495) [hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:362) [spring-orm-4.0.9.RELEASE.jar:4.0.9.RELEASE]
+	at com.sun.proxy.$Proxy36.getSingleResult(Unknown Source) [na:na]
+	at com.yerbaguy.practicewords.service.WordServiceImpl.findWord(WordServiceImpl.java:95) [classes/:na]
+	at com.yerbaguy.practicewords.controller.WordController.words(WordController.java:78) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) [spring-web-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) [spring-web-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:111) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:806) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:729) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650) [servlet-api.jar:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731) [servlet-api.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) [catalina.jar:7.0.77]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat7-websocket.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110) [catalina.jar:7.0.77]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169) [catalina.jar:7.0.77]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103) [catalina.jar:7.0.77]
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116) [catalina.jar:7.0.77]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445) [catalina.jar:7.0.77]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115) [tomcat-coyote.jar:7.0.77]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637) [tomcat-coyote.jar:7.0.77]
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316) [tomcat-coyote.jar:7.0.77]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-coyote.jar:7.0.77]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+21:32:34.379 [http-bio-8080-exec-10] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1054, SQLState: 42S22
+21:32:34.379 [http-bio-8080-exec-10] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Unknown column 'kind' in 'where clause'
+21:32:34.379 [http-bio-8080-exec-10] DEBUG o.h.j.spi.AbstractEntityManagerImpl - Mark transaction for rollback
+21:32:34.379 [http-bio-8080-exec-10] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+21:32:34.382 [http-bio-8080-exec-10] DEBUG o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning
+java.sql.SQLWarning: Unknown column 'kind' in 'where clause'
+	at com.mysql.jdbc.SQLError.convertShowWarningsToSQLWarnings(SQLError.java:735) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.SQLError.convertShowWarningsToSQLWarnings(SQLError.java:668) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.StatementImpl.getWarnings(StatementImpl.java:2285) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at org.apache.commons.dbcp.DelegatingStatement.getWarnings(DelegatingStatement.java:255) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.DelegatingStatement.getWarnings(DelegatingStatement.java:255) ~[commons-dbcp-1.4.jar:1.4]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.handleAndClearWarnings(SqlExceptionHelper.java:320) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logAndClearWarnings(SqlExceptionHelper.java:273) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.close(JdbcCoordinatorImpl.java:529) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.cleanup(JdbcCoordinatorImpl.java:509) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.close(JdbcCoordinatorImpl.java:204) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.transaction.internal.TransactionCoordinatorImpl.close(TransactionCoordinatorImpl.java:297) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionImpl.close(SessionImpl.java:369) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.internal.EntityManagerImpl.close(EntityManagerImpl.java:153) [hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:344) [spring-orm-4.0.9.RELEASE.jar:4.0.9.RELEASE]
+	at com.sun.proxy.$Proxy30.close(Unknown Source) [na:na]
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.closeEntityManager(EntityManagerFactoryUtils.java:435) [spring-orm-4.0.9.RELEASE.jar:4.0.9.RELEASE]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:372) [spring-orm-4.0.9.RELEASE.jar:4.0.9.RELEASE]
+	at com.sun.proxy.$Proxy36.getSingleResult(Unknown Source) [na:na]
+	at com.yerbaguy.practicewords.service.WordServiceImpl.findWord(WordServiceImpl.java:95) [classes/:na]
+	at com.yerbaguy.practicewords.controller.WordController.words(WordController.java:78) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) [spring-web-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) [spring-web-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:111) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:806) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:729) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650) [servlet-api.jar:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731) [servlet-api.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) [catalina.jar:7.0.77]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat7-websocket.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110) [catalina.jar:7.0.77]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169) [catalina.jar:7.0.77]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103) [catalina.jar:7.0.77]
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116) [catalina.jar:7.0.77]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445) [catalina.jar:7.0.77]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115) [tomcat-coyote.jar:7.0.77]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637) [tomcat-coyote.jar:7.0.77]
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316) [tomcat-coyote.jar:7.0.77]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-coyote.jar:7.0.77]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+21:32:34.382 [http-bio-8080-exec-10] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 1054, SQLState: 42S22
+21:32:34.382 [http-bio-8080-exec-10] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - Unknown column 'kind' in 'where clause'
+21:32:34.382 [http-bio-8080-exec-10] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+21:32:34.382 [http-bio-8080-exec-10] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+21:32:34.383 [http-bio-8080-exec-10] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolving exception from handler [public java.lang.String com.yerbaguy.practicewords.controller.WordController.words(com.yerbaguy.practicewords.model.Word,org.springframework.validation.BindingResult,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)]: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+21:32:34.383 [http-bio-8080-exec-10] DEBUG o.s.w.s.m.a.ResponseStatusExceptionResolver - Resolving exception from handler [public java.lang.String com.yerbaguy.practicewords.controller.WordController.words(com.yerbaguy.practicewords.model.Word,org.springframework.validation.BindingResult,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)]: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+21:32:34.383 [http-bio-8080-exec-10] DEBUG o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolving exception from handler [public java.lang.String com.yerbaguy.practicewords.controller.WordController.words(com.yerbaguy.practicewords.model.Word,org.springframework.validation.BindingResult,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)]: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+21:32:34.384 [http-bio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Could not complete request
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1763) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1677) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.internal.QueryImpl.getSingleResult(QueryImpl.java:524) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:362) ~[spring-orm-4.0.9.RELEASE.jar:4.0.9.RELEASE]
+	at com.sun.proxy.$Proxy36.getSingleResult(Unknown Source) ~[na:na]
+	at com.yerbaguy.practicewords.service.WordServiceImpl.findWord(WordServiceImpl.java:95) ~[classes/:na]
+	at com.yerbaguy.practicewords.controller.WordController.words(WordController.java:78) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:111) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:806) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:729) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650) [servlet-api.jar:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731) [servlet-api.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) [catalina.jar:7.0.77]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat7-websocket.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110) [catalina.jar:7.0.77]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169) [catalina.jar:7.0.77]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103) [catalina.jar:7.0.77]
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116) [catalina.jar:7.0.77]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445) [catalina.jar:7.0.77]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115) [tomcat-coyote.jar:7.0.77]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637) [tomcat-coyote.jar:7.0.77]
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316) [tomcat-coyote.jar:7.0.77]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-coyote.jar:7.0.77]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:80) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:91) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2066) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1863) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2554) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2540) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.list(Loader.java:2365) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1300) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:573) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.internal.QueryImpl.getSingleResult(QueryImpl.java:495) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	... 45 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'kind' in 'where clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_121]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.Util.getInstance(Util.java:383) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:980) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3847) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3783) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2447) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2594) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1901) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2002) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96) ~[commons-dbcp-1.4.jar:1.4]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:82) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	... 61 common frames omitted
+kwi 13, 2017 9:32:34 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [dispatcher] in context with path [/practiceWeb] threw exception [Request processing failed; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'kind' in 'where clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.Util.getInstance(Util.java:383)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:980)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3847)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3783)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2447)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2594)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1901)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2002)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:82)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2066)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1863)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1300)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103)
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:573)
+	at org.hibernate.jpa.internal.QueryImpl.getSingleResult(QueryImpl.java:495)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy36.getSingleResult(Unknown Source)
+	at com.yerbaguy.practicewords.service.WordServiceImpl.findWord(WordServiceImpl.java:95)
+	at com.yerbaguy.practicewords.controller.WordController.words(WordController.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:111)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:806)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:729)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+	at com.yerbaguy.practicewords.service.WordServiceImpl.findWord(WordServiceImpl.java:95) ~[classes/:na]
+	at com.yerbaguy.practicewords.controller.WordController.words(WordController.java:78) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:111) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:806) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:729) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650) [servlet-api.jar:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731) [servlet-api.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) [catalina.jar:7.0.77]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat7-websocket.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110) [catalina.jar:7.0.77]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169) [catalina.jar:7.0.77]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103) [catalina.jar:7.0.77]
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116) [catalina.jar:7.0.77]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445) [catalina.jar:7.0.77]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115) [tomcat-coyote.jar:7.0.77]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637) [tomcat-coyote.jar:7.0.77]
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316) [tomcat-coyote.jar:7.0.77]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-coyote.jar:7.0.77]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:80) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:91) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2066) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1863) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2554) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2540) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.list(Loader.java:2365) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1300) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:573) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.internal.QueryImpl.getSingleResult(QueryImpl.java:495) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	... 45 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'kind' in 'where clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_121]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.Util.getInstance(Util.java:383) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:980) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3847) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3783) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2447) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2594) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1901) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2002) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96) ~[commons-dbcp-1.4.jar:1.4]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:82) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	... 61 common frames omitted
+kwi 13, 2017 1:10:03 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [dispatcher] in context with path [/practiceWeb] threw exception [Request processing failed; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'kind' in 'where clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.Util.getInstance(Util.java:383)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:980)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3847)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3783)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2447)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2594)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1901)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2002)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:82)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2066)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1863)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1300)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103)
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:573)
+	at org.hibernate.jpa.internal.QueryImpl.getSingleResult(QueryImpl.java:495)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy36.getSingleResult(Unknown Source)
+	at com.yerbaguy.practicewords.service.WordServiceImpl.findWord(WordServiceImpl.java:95)
+	at com.yerbaguy.practicewords.controller.WordController.words(WordController.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:111)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:806)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:729)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+20:03:34.807 [http-bio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/]
+20:03:34.808 [http-bio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /
+20:03:34.808 [http-bio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.yerbaguy.practicewords.controller.WordController.index(org.springframework.ui.Model)]
+20:03:34.808 [http-bio-8080-exec-6] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'wordController'
+20:03:34.808 [http-bio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/] is: -1
+20:03:34.809 [http-bio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.JstlView: name 'index'; URL [/WEB-INF/views/index.jsp]] in DispatcherServlet with name 'dispatcher'
+20:03:34.809 [http-bio-8080-exec-6] DEBUG o.s.web.servlet.view.JstlView - Forwarding to resource [/WEB-INF/views/index.jsp] in InternalResourceView 'index'
+20:03:34.810 [http-bio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+20:03:38.613 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/words]
+20:03:38.614 [http-bio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /words
+20:03:38.614 [http-bio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.yerbaguy.practicewords.controller.WordController.words(org.springframework.ui.Model)]
+20:03:38.614 [http-bio-8080-exec-7] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'wordController'
+20:03:38.615 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/words] is: -1
+20:03:38.616 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.JstlView: name 'words'; URL [/WEB-INF/views/words.jsp]] in DispatcherServlet with name 'dispatcher'
+20:03:38.616 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.view.JstlView - Added model object 'wordForm' of type [com.yerbaguy.practicewords.model.Word] to request in view with name 'words'
+20:03:38.616 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.view.JstlView - Added model object 'org.springframework.validation.BindingResult.wordForm' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'words'
+20:03:38.616 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.view.JstlView - Forwarding to resource [/WEB-INF/views/words.jsp] in InternalResourceView 'words'
+20:03:38.619 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+20:03:38.640 [http-bio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/css/common.css]
+20:03:38.640 [http-bio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/js/bootstrap.min.js]
+20:03:38.640 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/css/common.css
+20:03:38.640 [http-bio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/js/bootstrap.min.js
+20:03:38.641 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/css/common.css]
+20:03:38.641 [http-bio-8080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/css/common.css] are [/resources/**]
+20:03:38.641 [http-bio-8080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/css/common.css] are {}
+20:03:38.641 [http-bio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/js/bootstrap.min.js]
+20:03:38.641 [http-bio-8080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/css/common.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+20:03:38.642 [http-bio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/css/common.css] is: -1
+20:03:38.642 [http-bio-8080-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/js/bootstrap.min.js] are [/resources/**]
+20:03:38.642 [http-bio-8080-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/js/bootstrap.min.js] are {}
+20:03:38.642 [http-bio-8080-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/js/bootstrap.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+20:03:38.642 [http-bio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/js/bootstrap.min.js] is: -1
+20:03:38.642 [http-bio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+20:03:38.642 [http-bio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+20:03:38.642 [http-bio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+20:03:38.642 [http-bio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+20:03:38.643 [http-bio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/css/bootstrap.min.css]
+20:03:38.643 [http-bio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/css/bootstrap.min.css
+20:03:38.644 [http-bio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/css/bootstrap.min.css]
+20:03:38.644 [http-bio-8080-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/css/bootstrap.min.css] are [/resources/**]
+20:03:38.644 [http-bio-8080-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/css/bootstrap.min.css] are {}
+20:03:38.644 [http-bio-8080-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/css/bootstrap.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+20:03:38.644 [http-bio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/css/bootstrap.min.css] is: -1
+20:03:38.645 [http-bio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+20:03:38.645 [http-bio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:21.012 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/]
+21:32:21.013 [http-bio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /
+21:32:21.013 [http-bio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.yerbaguy.practicewords.controller.WordController.index(org.springframework.ui.Model)]
+21:32:21.013 [http-bio-8080-exec-3] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'wordController'
+21:32:21.013 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/] is: -1
+21:32:21.013 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.JstlView: name 'index'; URL [/WEB-INF/views/index.jsp]] in DispatcherServlet with name 'dispatcher'
+21:32:21.014 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.view.JstlView - Forwarding to resource [/WEB-INF/views/index.jsp] in InternalResourceView 'index'
+21:32:21.193 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:25.940 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/words]
+21:32:25.940 [http-bio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /words
+21:32:25.940 [http-bio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.yerbaguy.practicewords.controller.WordController.words(org.springframework.ui.Model)]
+21:32:25.940 [http-bio-8080-exec-3] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'wordController'
+21:32:25.940 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/words] is: -1
+21:32:25.941 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.JstlView: name 'words'; URL [/WEB-INF/views/words.jsp]] in DispatcherServlet with name 'dispatcher'
+21:32:25.941 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.view.JstlView - Added model object 'wordForm' of type [com.yerbaguy.practicewords.model.Word] to request in view with name 'words'
+21:32:25.941 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.view.JstlView - Added model object 'org.springframework.validation.BindingResult.wordForm' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'words'
+21:32:25.941 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.view.JstlView - Forwarding to resource [/WEB-INF/views/words.jsp] in InternalResourceView 'words'
+21:32:25.943 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:25.963 [http-bio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/css/common.css]
+21:32:25.963 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/css/common.css
+21:32:25.964 [http-bio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/js/bootstrap.min.js]
+21:32:25.964 [http-bio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/js/bootstrap.min.js
+21:32:25.964 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/css/common.css]
+21:32:25.964 [http-bio-8080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/css/common.css] are [/resources/**]
+21:32:25.964 [http-bio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/js/bootstrap.min.js]
+21:32:25.964 [http-bio-8080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/css/common.css] are {}
+21:32:25.964 [http-bio-8080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/css/common.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+21:32:25.964 [http-bio-8080-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/js/bootstrap.min.js] are [/resources/**]
+21:32:25.964 [http-bio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/css/common.css] is: -1
+21:32:25.964 [http-bio-8080-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/js/bootstrap.min.js] are {}
+21:32:25.964 [http-bio-8080-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/js/bootstrap.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+21:32:25.964 [http-bio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/js/bootstrap.min.js] is: -1
+21:32:25.965 [http-bio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+21:32:25.965 [http-bio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+21:32:25.965 [http-bio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:25.965 [http-bio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:25.971 [http-bio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/css/bootstrap.min.css]
+21:32:25.971 [http-bio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/css/bootstrap.min.css
+21:32:25.972 [http-bio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/css/bootstrap.min.css]
+21:32:25.972 [http-bio-8080-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/css/bootstrap.min.css] are [/resources/**]
+21:32:25.972 [http-bio-8080-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/css/bootstrap.min.css] are {}
+21:32:25.972 [http-bio-8080-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/css/bootstrap.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+21:32:25.972 [http-bio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/css/bootstrap.min.css] is: -1
+21:32:25.972 [http-bio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+21:32:25.973 [http-bio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:27.825 [http-bio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing POST request for [/practiceWeb/words]
+21:32:27.825 [http-bio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /words
+21:32:27.825 [http-bio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.yerbaguy.practicewords.controller.WordController.words(com.yerbaguy.practicewords.model.Word,org.springframework.validation.BindingResult,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)]
+21:32:27.825 [http-bio-8080-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'wordController'
+21:32:27.826 [http-bio-8080-exec-4] DEBUG o.s.web.cors.DefaultCorsProcessor - Skip CORS processing, request is a same-origin one
+Clicked
+21:32:27.827 [http-bio-8080-exec-4] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+21:32:27.828 [http-bio-8080-exec-4] DEBUG org.hibernate.SQL - select count(word0_.wordId) as col_0_0_ from Word word0_
+Hibernate: select count(word0_.wordId) as col_0_0_ from Word word0_
+21:32:27.828 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+21:32:27.829 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+21:32:27.830 [http-bio-8080-exec-4] DEBUG org.hibernate.loader.Loader - Result set row: 0
+21:32:27.830 [http-bio-8080-exec-4] DEBUG org.hibernate.loader.Loader - Result row: 
+21:32:27.830 [http-bio-8080-exec-4] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+21:32:27.831 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+21:32:27.831 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+6
+21:32:27.831 [http-bio-8080-exec-4] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+21:32:27.831 [http-bio-8080-exec-4] DEBUG org.hibernate.SQL - select count(word0_.wordId) as col_0_0_ from Word word0_
+Hibernate: select count(word0_.wordId) as col_0_0_ from Word word0_
+21:32:27.831 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+21:32:27.832 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+21:32:27.832 [http-bio-8080-exec-4] DEBUG org.hibernate.loader.Loader - Result set row: 0
+21:32:27.832 [http-bio-8080-exec-4] DEBUG org.hibernate.loader.Loader - Result row: 
+21:32:27.833 [http-bio-8080-exec-4] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+21:32:27.833 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+21:32:27.833 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+21:32:27.833 [http-bio-8080-exec-4] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+21:32:27.834 [http-bio-8080-exec-4] DEBUG org.hibernate.SQL - Select plWord from Word Where wordId = 2
+Hibernate: Select plWord from Word Where wordId = 2
+21:32:27.834 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+21:32:27.834 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+21:32:27.835 [http-bio-8080-exec-4] DEBUG org.hibernate.loader.Loader - Result set row: 0
+21:32:27.836 [http-bio-8080-exec-4] DEBUG org.hibernate.loader.Loader - Result row: 
+21:32:27.837 [http-bio-8080-exec-4] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+21:32:27.837 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+21:32:27.837 [http-bio-8080-exec-4] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+ledwo
+21:32:27.838 [http-bio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.JstlView: name 'words'; URL [/WEB-INF/views/words.jsp]] in DispatcherServlet with name 'dispatcher'
+21:32:27.838 [http-bio-8080-exec-4] DEBUG o.s.web.servlet.view.JstlView - Added model object 'wordForm' of type [com.yerbaguy.practicewords.model.Word] to request in view with name 'words'
+21:32:27.838 [http-bio-8080-exec-4] DEBUG o.s.web.servlet.view.JstlView - Added model object 'org.springframework.validation.BindingResult.wordForm' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'words'
+21:32:27.838 [http-bio-8080-exec-4] DEBUG o.s.web.servlet.view.JstlView - Forwarding to resource [/WEB-INF/views/words.jsp] in InternalResourceView 'words'
+21:32:27.843 [http-bio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:27.856 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/css/bootstrap.min.css]
+21:32:27.856 [http-bio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/css/bootstrap.min.css
+21:32:27.857 [http-bio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/css/bootstrap.min.css]
+21:32:27.857 [http-bio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/css/bootstrap.min.css] are [/resources/**]
+21:32:27.857 [http-bio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/css/bootstrap.min.css] are {}
+21:32:27.857 [http-bio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/css/bootstrap.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+21:32:27.857 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/css/bootstrap.min.css] is: -1
+21:32:27.857 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+21:32:27.857 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:27.861 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/css/common.css]
+21:32:27.861 [http-bio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/css/common.css
+21:32:27.861 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/practiceWeb/resources/js/bootstrap.min.js]
+21:32:27.861 [http-bio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /resources/js/bootstrap.min.js
+21:32:27.862 [http-bio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/js/bootstrap.min.js]
+21:32:27.862 [http-bio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/resources/css/common.css]
+21:32:27.862 [http-bio-8080-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/js/bootstrap.min.js] are [/resources/**]
+21:32:27.862 [http-bio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/resources/css/common.css] are [/resources/**]
+21:32:27.862 [http-bio-8080-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/js/bootstrap.min.js] are {}
+21:32:27.862 [http-bio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/resources/css/common.css] are {}
+21:32:27.862 [http-bio-8080-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/js/bootstrap.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+21:32:27.862 [http-bio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/resources/css/common.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@25bdcb0a]]] and 1 interceptor
+21:32:27.862 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/js/bootstrap.min.js] is: -1
+21:32:27.862 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/practiceWeb/resources/css/common.css] is: -1
+21:32:27.862 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+21:32:27.862 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+21:32:27.862 [http-bio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:27.862 [http-bio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+21:32:34.372 [http-bio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing POST request for [/practiceWeb/words]
+21:32:34.373 [http-bio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /words
+21:32:34.373 [http-bio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.yerbaguy.practicewords.controller.WordController.words(com.yerbaguy.practicewords.model.Word,org.springframework.validation.BindingResult,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)]
+21:32:34.373 [http-bio-8080-exec-10] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'wordController'
+21:32:34.373 [http-bio-8080-exec-10] DEBUG o.s.web.cors.DefaultCorsProcessor - Skip CORS processing, request is a same-origin one
+Clicked_1
+kind
+21:32:34.375 [http-bio-8080-exec-10] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+21:32:34.375 [http-bio-8080-exec-10] DEBUG org.hibernate.SQL - select word0_.wordId as col_0_0_ from Word word0_ where word0_.engWord=kind
+Hibernate: select word0_.wordId as col_0_0_ from Word word0_ where word0_.engWord=kind
+21:32:34.375 [http-bio-8080-exec-10] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+21:32:34.376 [http-bio-8080-exec-10] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+21:32:34.378 [http-bio-8080-exec-10] DEBUG o.h.e.jdbc.spi.SqlExceptionHelper - could not extract ResultSet [n/a]
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'kind' in 'where clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_121]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.Util.getInstance(Util.java:383) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:980) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3847) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3783) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2447) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2594) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1901) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2002) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96) ~[commons-dbcp-1.4.jar:1.4]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:82) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2066) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1863) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2554) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2540) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.list(Loader.java:2365) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1300) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:573) [hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.internal.QueryImpl.getSingleResult(QueryImpl.java:495) [hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:362) [spring-orm-4.0.9.RELEASE.jar:4.0.9.RELEASE]
+	at com.sun.proxy.$Proxy36.getSingleResult(Unknown Source) [na:na]
+	at com.yerbaguy.practicewords.service.WordServiceImpl.findWord(WordServiceImpl.java:95) [classes/:na]
+	at com.yerbaguy.practicewords.controller.WordController.words(WordController.java:78) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) [spring-web-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) [spring-web-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:111) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:806) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:729) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650) [servlet-api.jar:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731) [servlet-api.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) [catalina.jar:7.0.77]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat7-websocket.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110) [catalina.jar:7.0.77]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169) [catalina.jar:7.0.77]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103) [catalina.jar:7.0.77]
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116) [catalina.jar:7.0.77]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445) [catalina.jar:7.0.77]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115) [tomcat-coyote.jar:7.0.77]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637) [tomcat-coyote.jar:7.0.77]
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316) [tomcat-coyote.jar:7.0.77]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-coyote.jar:7.0.77]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+21:32:34.379 [http-bio-8080-exec-10] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1054, SQLState: 42S22
+21:32:34.379 [http-bio-8080-exec-10] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Unknown column 'kind' in 'where clause'
+21:32:34.379 [http-bio-8080-exec-10] DEBUG o.h.j.spi.AbstractEntityManagerImpl - Mark transaction for rollback
+21:32:34.379 [http-bio-8080-exec-10] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+21:32:34.382 [http-bio-8080-exec-10] DEBUG o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning
+java.sql.SQLWarning: Unknown column 'kind' in 'where clause'
+	at com.mysql.jdbc.SQLError.convertShowWarningsToSQLWarnings(SQLError.java:735) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.SQLError.convertShowWarningsToSQLWarnings(SQLError.java:668) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.StatementImpl.getWarnings(StatementImpl.java:2285) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at org.apache.commons.dbcp.DelegatingStatement.getWarnings(DelegatingStatement.java:255) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.DelegatingStatement.getWarnings(DelegatingStatement.java:255) ~[commons-dbcp-1.4.jar:1.4]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.handleAndClearWarnings(SqlExceptionHelper.java:320) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logAndClearWarnings(SqlExceptionHelper.java:273) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.close(JdbcCoordinatorImpl.java:529) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.cleanup(JdbcCoordinatorImpl.java:509) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.close(JdbcCoordinatorImpl.java:204) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.transaction.internal.TransactionCoordinatorImpl.close(TransactionCoordinatorImpl.java:297) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionImpl.close(SessionImpl.java:369) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.internal.EntityManagerImpl.close(EntityManagerImpl.java:153) [hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:344) [spring-orm-4.0.9.RELEASE.jar:4.0.9.RELEASE]
+	at com.sun.proxy.$Proxy30.close(Unknown Source) [na:na]
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.closeEntityManager(EntityManagerFactoryUtils.java:435) [spring-orm-4.0.9.RELEASE.jar:4.0.9.RELEASE]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:372) [spring-orm-4.0.9.RELEASE.jar:4.0.9.RELEASE]
+	at com.sun.proxy.$Proxy36.getSingleResult(Unknown Source) [na:na]
+	at com.yerbaguy.practicewords.service.WordServiceImpl.findWord(WordServiceImpl.java:95) [classes/:na]
+	at com.yerbaguy.practicewords.controller.WordController.words(WordController.java:78) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) [spring-web-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) [spring-web-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:111) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:806) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:729) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650) [servlet-api.jar:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731) [servlet-api.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) [catalina.jar:7.0.77]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat7-websocket.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110) [catalina.jar:7.0.77]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169) [catalina.jar:7.0.77]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103) [catalina.jar:7.0.77]
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116) [catalina.jar:7.0.77]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445) [catalina.jar:7.0.77]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115) [tomcat-coyote.jar:7.0.77]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637) [tomcat-coyote.jar:7.0.77]
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316) [tomcat-coyote.jar:7.0.77]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-coyote.jar:7.0.77]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+21:32:34.382 [http-bio-8080-exec-10] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 1054, SQLState: 42S22
+21:32:34.382 [http-bio-8080-exec-10] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - Unknown column 'kind' in 'where clause'
+21:32:34.382 [http-bio-8080-exec-10] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+21:32:34.382 [http-bio-8080-exec-10] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+21:32:34.383 [http-bio-8080-exec-10] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolving exception from handler [public java.lang.String com.yerbaguy.practicewords.controller.WordController.words(com.yerbaguy.practicewords.model.Word,org.springframework.validation.BindingResult,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)]: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+21:32:34.383 [http-bio-8080-exec-10] DEBUG o.s.w.s.m.a.ResponseStatusExceptionResolver - Resolving exception from handler [public java.lang.String com.yerbaguy.practicewords.controller.WordController.words(com.yerbaguy.practicewords.model.Word,org.springframework.validation.BindingResult,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)]: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+21:32:34.383 [http-bio-8080-exec-10] DEBUG o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolving exception from handler [public java.lang.String com.yerbaguy.practicewords.controller.WordController.words(com.yerbaguy.practicewords.model.Word,org.springframework.validation.BindingResult,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)]: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+21:32:34.384 [http-bio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Could not complete request
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1763) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1677) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.internal.QueryImpl.getSingleResult(QueryImpl.java:524) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:362) ~[spring-orm-4.0.9.RELEASE.jar:4.0.9.RELEASE]
+	at com.sun.proxy.$Proxy36.getSingleResult(Unknown Source) ~[na:na]
+	at com.yerbaguy.practicewords.service.WordServiceImpl.findWord(WordServiceImpl.java:95) ~[classes/:na]
+	at com.yerbaguy.practicewords.controller.WordController.words(WordController.java:78) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:111) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:806) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:729) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) ~[spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650) [servlet-api.jar:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.2.0.RELEASE.jar:4.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731) [servlet-api.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) [catalina.jar:7.0.77]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat7-websocket.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110) [catalina.jar:7.0.77]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169) [catalina.jar:7.0.77]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103) [catalina.jar:7.0.77]
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962) [catalina.jar:7.0.77]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116) [catalina.jar:7.0.77]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445) [catalina.jar:7.0.77]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115) [tomcat-coyote.jar:7.0.77]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637) [tomcat-coyote.jar:7.0.77]
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316) [tomcat-coyote.jar:7.0.77]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-coyote.jar:7.0.77]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:80) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:91) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2066) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1863) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2554) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2540) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.Loader.list(Loader.java:2365) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1300) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:573) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.internal.QueryImpl.getSingleResult(QueryImpl.java:495) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	... 45 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'kind' in 'where clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_121]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.Util.getInstance(Util.java:383) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:980) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3847) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3783) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2447) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2594) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1901) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2002) ~[mysql-connector-java-5.1.36.jar:5.1.36]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96) ~[commons-dbcp-1.4.jar:1.4]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:82) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	... 61 common frames omitted
+kwi 13, 2017 9:32:34 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [dispatcher] in context with path [/practiceWeb] threw exception [Request processing failed; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'kind' in 'where clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.Util.getInstance(Util.java:383)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:980)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3847)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3783)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2447)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2594)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1901)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2002)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:82)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2066)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1863)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1300)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103)
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:573)
+	at org.hibernate.jpa.internal.QueryImpl.getSingleResult(QueryImpl.java:495)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy36.getSingleResult(Unknown Source)
+	at com.yerbaguy.practicewords.service.WordServiceImpl.findWord(WordServiceImpl.java:95)
+	at com.yerbaguy.practicewords.controller.WordController.words(WordController.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:111)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:806)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:729)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
