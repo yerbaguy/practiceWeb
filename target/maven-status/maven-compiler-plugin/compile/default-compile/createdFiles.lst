@@ -1,0 +1,5 @@
+com/yerbaguy/practicewords/service/WordService.class
+com/yerbaguy/practicewords/model/Word.class
+com/yerbaguy/practicewords/controller/WordController.class
+com/yerbaguy/practicewords/service/WordServiceImpl.class
+com/yerbaguy/practicewords/repository/WordRepository.class
