@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name="com.yerbaguy.practicewords.model.Word" table="Word">
+      <meta attribute="class-description">
+         This class contains the Word detail. 
+      </meta>
+        <id name="wordid" type="int" column="wordid"> 
+           <generator class="native"/> 
+       </id>
+      <property name="engWord" column="engWord" type="string"/>
+      <property name="plWord" column="plWord" type="string"/>
+      
+      <property name="wordid" not-null="true"/>
+      
+      
+     
+   </class>
+</hibernate-mapping>

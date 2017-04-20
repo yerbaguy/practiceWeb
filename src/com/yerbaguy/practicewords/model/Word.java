@@ -5,40 +5,53 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedNativeQueries;
+import javax.persistence.NamedNativeQuery;
+import javax.persistence.Table;
 
-import org.hibernate.annotations.NamedQuery;
 
 
 @Entity
-//@NamedQuery(name = "Word.findByEngWord",
-//query = " from Word w where w.engWord = ?")
+@Table(name = "Word")
+@NamedNativeQueries({
+		
+		@NamedNativeQuery(name="Word.findIdByEngWord", query="SELECT wordid FROM Word WHERE engWord = ?", resultClass=Word.class),
+		@NamedNativeQuery(name="Word.countWords", query="SELECT COUNT(*) FROM Word", resultClass=Word.class),
+		@NamedNativeQuery(name="Word.getWord", query="SELECT plWord from Word WHERE wordid = ?", resultClass=Word.class),
+		@NamedNativeQuery(name="Word.findWord", query="SELECT wordid from Word WHERE engWord = ?", resultClass=Word.class)
+})
 public class Word {
 	
 	@Id
-	@Column
+//	@Column(name = "wordid", insertable = false, updatable = false)
+	@Column(insertable = false, updatable = false)
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private int wordId;
-	@Column
+	//private Long wordid;
+	private int wordid;
+	@Column(name = "engword")
 	private String engWord;
-	@Column
+	@Column(name = "plword")
 	private String plWord;
 	
 	public Word() {
 		
 	}
 	
-	public Word(String engWord, Word word) {
-		//this.wordId = wordId;
+	public Word(String engWord, String plWord) {
 		this.engWord = engWord;
-		
+		this.plWord = plWord;
 	}
 	
-	public void setWordId(int wordId) {
-		this.wordId = wordId;
+	
+	
+	
+	
+	public void setWordId(int wordid) {
+		this.wordid = wordid;
 	}
 	
 	public int getWordId() {
-		return this.wordId;
+		return this.wordid;
 	}
 	
 	public void setEngWord(String engWord) {
